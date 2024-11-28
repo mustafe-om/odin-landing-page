@@ -232,6 +232,10 @@ a {
     font-size: 50px;
     font-weight: 700;
 }
+.process-card h3{
+    font-size: 16px;
+    font-weight: 700;
+}
 .process-card p{
     width: 190px;
     color: #FBD4D2;

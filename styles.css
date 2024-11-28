@@ -1,0 +1,135 @@
+* {
+    box-sizing: border-box;
+    font-family:'poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    vertical-align: baseline;
+}
+.container{
+    max-width: 1440px;
+    margin: 112px 80px;
+}
+.section{
+    margin-top: 224px;
+    margin-bottom: 224px;
+}
+
+/* *************************************************** */
+/* MENU SECTION */
+/* *************************************************** */
+
+a {
+    text-decoration: none;
+}
+.menu-bar{
+    max-width: 1440px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    margin: 40px 80px;
+}
+
+.menu-items{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 80px;
+}
+.menu-items a {
+    display: inline-block;
+
+    font-size: 16px;
+    font-weight: 400;
+    color: #252B37;
+    cursor: pointer;
+}
+.menu-items a:hover{
+    text-decoration: underline;
+}
+#clicked {
+    font-weight: 700;
+}
+/* *************************************************** */
+/* HERO SECTION */
+/* *************************************************** */
+
+.hero-section{
+    max-width: 1440px;
+    display: flex;
+    gap: 96px;
+    justify-content: space-between;
+}
+.hero-text-container{
+    max-width: 543px;
+}
+.h1{
+    font-family: 'poppins', sans-serif;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 1.2;
+    margin-bottom: 16px;
+
+}
+.hero-text{
+    color: #464E5F;
+    font-size: 16px;
+    line-height: 1.5;
+    margin-bottom: 32px;
+ 
+}
+.h1 span{
+    background: linear-gradient(#CC3044, #D77820);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.hero-button{
+    background: linear-gradient(90deg,#CC3044, #D77820);
+    padding: 14px 24px;
+    font-size: 16px;
+    font-weight: 500;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+.image-container img{
+    max-width: 645px;
+}
+
+/* *************************************************** */
+/* SOCIAL PROOF SECTION */
+/* *************************************************** */
+
+.social-proof{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 32px;
+}
+
+.social-proof h3{
+    font-size: 20px;
+    font-weight: 600;
+    color: #A4A4A4;
+}
+
+.social-proof-logos{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.social-proof-logo img{
+    max-width: 140px;
+}
+
+/* *************************************************** */
+/* SERVICES SECTION */
+/* *************************************************** */
+.services{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
